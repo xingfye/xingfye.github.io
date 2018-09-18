@@ -1,0 +1,45 @@
+h1{
+	text-align: center;
+	margin-top: 100px; 
+}
+
+body {
+	margin-top: 100px;
+	text-align: center;
+	background-color: lightblue;
+}
+
+p {
+	border: 3px;
+	border-style: dotted;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+
+#word1 {
+	color: red;
+}
+
+#word2{
+	color: red;
+}
+
+#word3{
+	color: red;
+}
+
+#word4{
+	color: red;
+}
+
+#word5{
+	color: red;
+}
+
+#word6{
+	color: red;
+}
+
+#word7{
+	color: red;
+}
