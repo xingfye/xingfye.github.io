@@ -1,12 +1,11 @@
 #win {
 	width: 100%;
 	position: fixed;
-	top: 300px;
 	display: none;
 }
 
 .underscore {
-	position: fixed;
+	position: absolute;
 	font-size: 50px;
 	margin-top: 300px;
 	margin-left: 630px;
@@ -16,20 +15,20 @@
 }
 
 #bg{
-	width:100%;
-	position:fixed;
+	width:1490px;
+	position:absolute;
 }
 
 #bomb {
 	margin-left: 150px;
 	margin-top: 30px;
 	width:80%;
-	position: fixed;
+	position: absolute;
 }
 
 
 #one {
-	position: fixed;
+	position: absolute;
 	width: 5px;
 	margin-top: 397px;
 	margin-left:607px;
@@ -37,7 +36,7 @@
 }
 
 #two {
-	position: fixed;
+	position: absolute;
 	width: 30px;
 	margin-top: 393px;
 	margin-left:582px;
@@ -45,11 +44,12 @@
 }
 
 #three {
-	position: fixed;
+	position: absolute;
 	width: 25.5px;
 	margin-top: 393.3px;
 	margin-left:586px;
 }
+
 
 #A {
 	position: absolute;
@@ -66,98 +66,98 @@
 }
 
 #C {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 422.5px;
 	margin-left:776.5px;
 }
 
 #D {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 422.5px;
 	margin-left:833.5px;
 }
 
 #E {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 422.5px;
 	margin-left:891px;
 }
 
 #F {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 476.5px;
 	margin-left:548px;
 }
 
 #G {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 476.5px;
 	margin-left:605px;
 }
 
 #H {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 476.5px;
 	margin-left:662px;
 }
 
 #I {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 476.5px;
 	margin-left:719px;
 }
 
 #J {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 476.5px;
 	margin-left:776.5px;
 }
 
 #K {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 476.5px;
 	margin-left:833.5px;
 }
 
 #L {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 476.5px;
 	margin-left:891px;
 }
 
 #M {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 530.5px;
 	margin-left:548px;
 }
 
 #N {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 530.5px;
 	margin-left:605px;
 }
 
 #O {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 530.5px;
 	margin-left:662px;
 }
 
 #P {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 530.5px;
 	margin-left:719px;
@@ -165,49 +165,49 @@
 }
 
 #Q {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 530.5px;
 	margin-left:776.5px;
 }
 
 #R {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 530.5px;
 	margin-left:833.5px;
 }
 
 #S {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 530.5px;
 	margin-left:891px;
 }
 
 #T {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 584.5px;
 	margin-left:548px;
 }
 
 #U {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 584.5px;
 	margin-left:605px;
 }
 
 #V {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 584.5px;
 	margin-left:662px;
 }
 
 #W {
-	position: fixed;
+	position: absolute;
 	width: 42.5px;
 	margin-top: 584.5px;
 	margin-left:719px;
@@ -215,21 +215,21 @@
 }
 
 #X {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 584.5px;
 	margin-left:776.5px;
 }
 
 #Y {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 584.5px;
 	margin-left:833.5px;
 }
 
 #Z {
-	position: fixed;
+	position: absolute;
 	width: 40px;
 	margin-top: 584.5px;
 	margin-left:891px;

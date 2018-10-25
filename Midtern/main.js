@@ -34,8 +34,8 @@ document.addEventListener ("keypress", (event) =>{
 	}
 	//wrong guess
 	else {
-		// three.style.display = 'none';
-		// two.style.display = 'block';
+		three.style.display = 'none';
+		two.style.display = 'block';
 	}
 	// else {
 	// 	two.style.display = 'none';
