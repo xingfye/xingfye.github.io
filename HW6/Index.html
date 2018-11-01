@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework 6</title>
+</head>
+<body>
+<style>
+body{
+	background-color: black;
+}
+	.cover{
+		width: 100%;
+		transition: .5s;
+		z-index: 0;
+	}
+	.list.shrink {
+		position: fixed;
+		top:0px;
+	}
+	.menu{
+		z-index: 1;
+	}
+	.list{
+		position: relative;
+		text-align: center;
+		padding: 25px 0px;
+		width: 100%;
+		background-color: #626262;
+		color: white;
+	}
+	.list li{
+		display: inline-block;
+		font-size: 60px;
+		margin-left:80px;
+		margin-right: 120px;
+	}
+	.songlist{
+		margin-top: 0px;
+	}
+	.songlist_adjust{
+		margin-top: 100px;
+	}
+	#songlist1 {
+		margin-left: auto;
+		margin-right: auto;
+		background-color: lightgray;
+		padding: 20px;
+		width: 80%;
+		z-index: 0;
+	}
+	#songlist1 li{
+		padding: 50px;
+		z-index: 1;
+		display: block;
+		font-size: 30px;
+	}
+	#logo{
+		width: 30%;
+		margin-left: 35%;
+	}
+	#about {
+		width: 80%;
+		padding: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 30px;
+		color: white;
+	}
+</style>
+<div>
+	<img class="cover" src="image/maxresdefault.jpg">
+	<div class="menu">
+		<nav class="list">
+			<li><a href="#songs">SONGS</a></li>
+			<li><a href="#info">ABOUT</a></li>
+		</nav>
+	</div>
+	<div class="songlist" id="songs">
+		<ul id="songlist1">
+			<li>The Assembly Call</li>
+			<li>NAMANANA</li>
+			<li>Give Me A Chance</li>
+			<li>Lay U Down</li>
+			<div></div>
+			<li>Save You</li>
+			<li>Hold On</li>
+			<li>Thing For You</li>
+			<li>Mapo Tofu</li>
+			<li>Flavor</li>
+			<li>Don't Let Me Go</li>
+			<li>Tattoo</li>
+		</ul>
+	</div>
+	<div id="info">
+		<img id="logo" src="image/A1QW7Qx4_400x400.jpg">
+		<div id="about">
+		Zhang Yixing (simplified Chinese: 张艺兴; traditional Chinese: 張藝興) (born October 7, 1991), known professionally as Lay (Korean: 레이), is a Chinese singer, songwriter, dancer, and actor. He is a member of the South Korean-Chinese boy group Exo and its sub-unit Exo-M. He was first known after participating in the Chinese TV talent show Star Academy in 2005.
+		<br><br>
+		In January 2015, Lay was ranked fifth on Baidu's "2014 Top 10 Most Popular Celebrities" list. In September 2015, he released his autobiography titled Standing Firm at 24, which broke several online book records. In July 2016, Lay was appointed by the Communist Youth League of China (CYLC) of Changsha as a publicity ambassador, the first celebrity to hold such title. On October 28, 2016, Lay released his first EP Lose Control in South Korea and China. The EP was a commercial success peaking at number one on the Gaon Album Chart as well as number four on Billboard's US World Albums chart and made him the first Chinese artist to enter the iTunes Top 60. Kantar Millward Brown and China’s business magazine CBN Weekly recently launched the CelebrityZ Top 100 Most Valuable Celebrities where he came in at the 23rd spot.
+		<br><br>
+		In September 2017, he came in at the 20th spot on the 2017 Forbes China Celebrity 100 List with estimated earnings of 120 million yuan.
+	</div>
+	</div>
+</div>
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
